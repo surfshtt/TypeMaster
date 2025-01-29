@@ -12,5 +12,8 @@ TypeMaster is a educational touch typing game
 ## Technology stack
 C#, Winforms, xUnit.
 
+## Figma design link:
+[here](https://www.figma.com/design/71moQHDf21DXN8pGJE7GEk/Untitled?node-id=0-1&p=f&t=FsB9yLeigNQKv0hj-0)
+
 ## Support
 For support or inquiries, please contact me at fk8ghtt@gmail.com
