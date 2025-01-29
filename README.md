@@ -10,7 +10,7 @@ TypeMaster is a educational touch typing game
 - **Educational mode**: There user can improve his touch typing for every finger separately.
 
 ## Technology stack
-C#, Winfroms, xUnit.
+C#, Winforms, xUnit.
 
 ## Support
 For support or inquiries, please contact me at fk8ghtt@gmail.com
