@@ -1,6 +1,6 @@
 ﻿namespace Project
 {
-    partial class MainForm
+    partial class LoginForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,23 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
+            LogBox = new TextBox();
+            PasBox = new TextBox();
             SuspendLayout();
             // 
-            // MainForm
+            // LogBox
+            // 
+            LogBox.BorderStyle = BorderStyle.None;
+            LogBox.Font = new Font("Segoe UI", 29F);
+            LogBox.Location = new Point(598, 406);
+            LogBox.Name = "LogBox";
+            LogBox.Size = new Size(478, 52);
+            LogBox.TabIndex = 0;
+            // 
+            // PasBox
+            // 
+            PasBox.BorderStyle = BorderStyle.None;
+            PasBox.Font = new Font("Segoe UI", 29F);
+            PasBox.Location = new Point(598, 526);
+            PasBox.Name = "PasBox";
+            PasBox.PasswordChar = '*';
+            PasBox.Size = new Size(478, 52);
+            PasBox.TabIndex = 1;
+            // 
+            // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
+            Controls.Add(PasBox);
+            Controls.Add(LogBox);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Name = "MainForm";
+            Name = "LoginForm";
             Text = "TypeMaster";
             WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox LogBox;
+        private TextBox PasBox;
     }
 }
