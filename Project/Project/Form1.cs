@@ -33,10 +33,17 @@ namespace Project
 
         private void PasBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (Char.IsNumber(e.KeyChar) | Char.IsLetter(e.KeyChar) | (Char.IsPunctuation(e.KeyChar) | e.KeyChar == '\b'))   
+            if (Char.IsNumber(e.KeyChar) | Char.IsLetter(e.KeyChar) | (Char.IsPunctuation(e.KeyChar) | e.KeyChar == '\b'))
                 return;
             else
-                e.Handled = true;    
+                e.Handled = true;
+        }
+
+        private void Go1Button_Click(object sender, EventArgs e)
+        {
+            MainForm mainMenu = new MainForm(_instance, "username");
+            mainMenu.Show();
+            this.Hide();
         }
     }
 }

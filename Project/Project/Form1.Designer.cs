@@ -78,6 +78,7 @@
             Go1Button.Size = new Size(230, 111);
             Go1Button.TabIndex = 3;
             Go1Button.TabStop = false;
+            Go1Button.Click += Go1Button_Click;
             // 
             // LoginForm
             // 

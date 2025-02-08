@@ -93,6 +93,16 @@ namespace Project.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap RadioButtonNCMode {
+            get {
+                object obj = ResourceManager.GetObject("RadioButtonNCMode", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RegButton {
             get {
                 object obj = ResourceManager.GetObject("RegButton", resourceCulture);

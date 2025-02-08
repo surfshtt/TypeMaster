@@ -35,3 +35,4 @@ C:\Users\user\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Projec
 \\mcb.local\RoamingProfiles$\StudentsData\1227154\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\ref\Project.dll
 \\mcb.local\RoamingProfiles$\StudentsData\1227154\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.LoginForm.resources
 \\mcb.local\RoamingProfiles$\StudentsData\1227154\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.RegForm.resources
+\\mcb.local\RoamingProfiles$\StudentsData\1227154\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.MainForm.resources
