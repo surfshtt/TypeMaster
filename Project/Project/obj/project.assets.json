@@ -8,7 +8,7 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\1227154.MCB.000\\.nuget\\packages\\": {}
+    "C:\\Users\\1227154\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,7 +16,7 @@
       "projectUniqueName": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj",
       "projectName": "Project",
       "projectPath": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj",
-      "packagesPath": "C:\\Users\\1227154.MCB.000\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\1227154\\.nuget\\packages\\",
       "outputPath": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
