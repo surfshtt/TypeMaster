@@ -58,6 +58,10 @@
             StartButton.TabStop = false;
             StartButton.Click += StartButton_Click;
             // 
+            // timer
+            // 
+            timer.Tick += timer_Tick;
+            // 
             // FallingLetters
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -71,6 +75,7 @@
             Text = "TypeMaster";
             WindowState = FormWindowState.Maximized;
             FormClosed += FallingLetters_FormClosed;
+            KeyPress += FallingLetters_KeyPress;
             ((System.ComponentModel.ISupportInitialize)BackButton).EndInit();
             ((System.ComponentModel.ISupportInitialize)StartButton).EndInit();
             ResumeLayout(false);
