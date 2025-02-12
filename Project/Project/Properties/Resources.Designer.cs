@@ -63,6 +63,26 @@ namespace Project.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BackButtonNP {
+            get {
+                object obj = ResourceManager.GetObject("BackButtonNP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FallingLettersForm {
+            get {
+                object obj = ResourceManager.GetObject("FallingLettersForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Go1Button {
             get {
                 object obj = ResourceManager.GetObject("Go1Button", resourceCulture);
@@ -116,6 +136,16 @@ namespace Project.Properties {
         internal static System.Drawing.Bitmap RegForm {
             get {
                 object obj = ResourceManager.GetObject("RegForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap StartButton {
+            get {
+                object obj = ResourceManager.GetObject("StartButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

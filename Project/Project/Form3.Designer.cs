@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            pictureBox1 = new PictureBox();
+            GoPlay1Button = new PictureBox();
             RadioModeButton1 = new PictureBox();
             RadioModeButton2 = new PictureBox();
             RadioModeButton3 = new PictureBox();
             RadioModeButton33 = new PictureBox();
             RadioModeButton22 = new PictureBox();
             RadioModeButton11 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)GoPlay1Button).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton3).BeginInit();
@@ -45,14 +45,15 @@
             ((System.ComponentModel.ISupportInitialize)RadioModeButton11).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // GoPlay1Button
             // 
-            pictureBox1.Image = Properties.Resources.Go1Button;
-            pictureBox1.Location = new Point(990, 285);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(231, 111);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            GoPlay1Button.Image = Properties.Resources.Go1Button;
+            GoPlay1Button.Location = new Point(990, 285);
+            GoPlay1Button.Name = "GoPlay1Button";
+            GoPlay1Button.Size = new Size(231, 111);
+            GoPlay1Button.TabIndex = 0;
+            GoPlay1Button.TabStop = false;
+            GoPlay1Button.Click += GoPlay1Button_Click;
             // 
             // RadioModeButton1
             // 
@@ -126,13 +127,13 @@
             Controls.Add(RadioModeButton3);
             Controls.Add(RadioModeButton2);
             Controls.Add(RadioModeButton1);
-            Controls.Add(pictureBox1);
+            Controls.Add(GoPlay1Button);
             DoubleBuffered = true;
             Name = "MainForm";
             Text = "TypeMaster";
             WindowState = FormWindowState.Maximized;
             FormClosed += MainForm_FormClosed;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)GoPlay1Button).EndInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton1).EndInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton2).EndInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton3).EndInit();
@@ -144,7 +145,7 @@
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private PictureBox GoPlay1Button;
         private PictureBox RadioModeButton1;
         private PictureBox RadioModeButton2;
         private PictureBox RadioModeButton3;

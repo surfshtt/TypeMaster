@@ -91,5 +91,12 @@ namespace Project
         {
             _instatnceLog.Close();
         }
+
+        private void GoPlay1Button_Click(object sender, EventArgs e)
+        {
+            FallingLetters fl = new FallingLetters(_instatnceLog, this, radioButInfo[0]);
+            fl.Show();
+            this.Hide();
+        }
     }
 }
