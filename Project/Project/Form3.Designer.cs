@@ -36,6 +36,7 @@
             RadioModeButton33 = new PictureBox();
             RadioModeButton22 = new PictureBox();
             RadioModeButton11 = new PictureBox();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)GoPlay1Button).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton2).BeginInit();
@@ -43,6 +44,7 @@
             ((System.ComponentModel.ISupportInitialize)RadioModeButton33).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton22).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // GoPlay1Button
@@ -115,12 +117,23 @@
             RadioModeButton11.TabStop = false;
             RadioModeButton11.Click += RadioModeButton_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Go1Button;
+            pictureBox1.Location = new Point(1648, 285);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(231, 111);
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
+            Controls.Add(pictureBox1);
             Controls.Add(RadioModeButton33);
             Controls.Add(RadioModeButton22);
             Controls.Add(RadioModeButton11);
@@ -140,6 +153,7 @@
             ((System.ComponentModel.ISupportInitialize)RadioModeButton33).EndInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton22).EndInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -152,5 +166,6 @@
         private PictureBox RadioModeButton33;
         private PictureBox RadioModeButton22;
         private PictureBox RadioModeButton11;
+        private PictureBox pictureBox1;
     }
 }

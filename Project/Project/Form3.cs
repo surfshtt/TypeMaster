@@ -98,5 +98,12 @@ namespace Project
             fl.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            FallingWords fw = new FallingWords(_instatnceLog, this, radioButInfo[1]);
+            fw.Show();
+            this.Hide();
+        }
     }
 }

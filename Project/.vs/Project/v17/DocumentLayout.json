@@ -3,10 +3,16 @@
   "WorkspaceRootPath": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|\\\\mcb.local\\roamingprofiles$\\studentsdata\\1227154\\desktop\\typemaster\\project\\project\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|\\\\mcb.local\\roamingprofiles$\\studentsdata\\1227154\\desktop\\typemaster\\project\\project\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|\\\\mcb.local\\roamingprofiles$\\studentsdata\\1227154\\desktop\\typemaster\\project\\project\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|\\\\mcb.local\\roamingprofiles$\\studentsdata\\1227154\\desktop\\typemaster\\project\\project\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|\\\\mcb.local\\roamingprofiles$\\studentsdata\\1227154\\desktop\\typemaster\\project\\project\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -33,19 +39,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form5.cs",
+              "DocumentMoniker": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form5.cs",
+              "RelativeDocumentMoniker": "Project\\Form5.cs",
+              "ToolTip": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form5.cs",
+              "RelativeToolTip": "Project\\Form5.cs",
+              "ViewState": "AQIAACMBAAAAAAAAAAAWwCoBAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T10:15:17.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form5.cs",
+              "RelativeDocumentMoniker": "Project\\Form5.cs",
+              "ToolTip": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Project\\Form5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T10:11:51.396Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form4.cs",
               "DocumentMoniker": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form4.cs",
               "RelativeDocumentMoniker": "Project\\Form4.cs",
               "ToolTip": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form4.cs",
               "RelativeToolTip": "Project\\Form4.cs",
-              "ViewState": "AQIAALkAAAAAAAAAAAAuwMEAAAAAAAAA",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAYwNYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T15:02:51.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form4.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form4.cs",
               "RelativeDocumentMoniker": "Project\\Form4.cs",
@@ -57,20 +88,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form3.cs",
               "DocumentMoniker": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form3.cs",
               "RelativeDocumentMoniker": "Project\\Form3.cs",
               "ToolTip": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form3.cs",
               "RelativeToolTip": "Project\\Form3.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAwwGIAAAAVAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAjwGcAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T11:14:03.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form3.cs",
               "RelativeDocumentMoniker": "Project\\Form3.cs",
@@ -82,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form1.cs",
               "RelativeDocumentMoniker": "Project\\Form1.cs",
@@ -95,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Form1.cs",
               "RelativeDocumentMoniker": "Project\\Form1.cs",
