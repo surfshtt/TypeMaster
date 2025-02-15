@@ -230,6 +230,7 @@ namespace Project
             this.Hide();
             divisions = 0;
             filledDivisions = 0;
+            _mainInstance.Show();
         }
 
         private void StartButton_Click(object sender, EventArgs e)
@@ -294,9 +295,10 @@ namespace Project
 
         private void FallingWords_KeyPress(object sender, KeyPressEventArgs e)
         {
+            bool isBeen = false;
             for (int i = 0; i < countOfSquares; i++)
             {
-                //проверка на пробел надо
+                if(e.KeyChar == ' ') { return; }
 
                 if (e.KeyChar == currentWords[i].getCurrentLetter())
                 {
@@ -314,12 +316,15 @@ namespace Project
                     {
                         filledDivisions++;
                         this.Invalidate();
-                        return;
+                        isBeen = true;
                     }         
                 }
             }
-            filledDivisions = 0;
-            this.Invalidate();
+            if (!isBeen)
+            {
+                filledDivisions = 0;
+                this.Invalidate();
+            }
         }
     }
 
