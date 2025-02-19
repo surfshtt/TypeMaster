@@ -223,6 +223,13 @@ namespace Project
             Brush fillBrush = new SolidBrush(Color.LightGray);
             int filledWidth = (rectangleWidth / divisions) * filledDivisions;
             g.FillRectangle(fillBrush, 50, 50, filledWidth, rectangleHeight);
+
+            if(filledDivisions >= divisions)
+            {
+                this.Hide();
+                CongratForm cf = new CongratForm(_mainInstance, _logInstance);
+                cf.Show();
+            }
         }
 
         private void BackButton_Click(object sender, EventArgs e)
