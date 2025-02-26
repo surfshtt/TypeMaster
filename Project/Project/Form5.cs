@@ -226,9 +226,9 @@ namespace Project
 
             if(filledDivisions >= divisions)
             {
-                this.Hide();
-                CongratForm cf = new CongratForm(_mainInstance, _logInstance);
-                cf.Show();
+                //this.Hide();
+                //CongratForm cf = new CongratForm(_mainInstance, _logInstance);
+                //cf.Show();
             }
         }
 
