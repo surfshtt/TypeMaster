@@ -8,10 +8,10 @@ namespace Project
         {
             InitializeComponent();
 
-            LogBox.BackColor = ColorTranslator.FromHtml("#312D2D");
-            LogBox.ForeColor = ColorTranslator.FromHtml("#E4E4E4");
-            PasBox.BackColor = ColorTranslator.FromHtml("#312D2D");
-            PasBox.ForeColor = ColorTranslator.FromHtml("#E4E4E4");
+            LoginBox.BackColor = ColorTranslator.FromHtml("#312D2D");
+            LoginBox.ForeColor = ColorTranslator.FromHtml("#E4E4E4");
+            PasswordBox.BackColor = ColorTranslator.FromHtml("#312D2D");
+            PasswordBox.ForeColor = ColorTranslator.FromHtml("#E4E4E4");
 
             _instance = this;
         }
@@ -41,9 +41,49 @@ namespace Project
 
         private void Go1Button_Click(object sender, EventArgs e)
         {
-            MainForm mainMenu = new MainForm(_instance, "username");
-            mainMenu.Show();
-            this.Hide();
+            //Проверка корректности значений
+            if (!(LoginBox.Text.Equals("") || PasswordBox.Text.Equals("")))
+            {
+
+                //Логика входа в программу
+                if (correctData(LoginBox.Text.ToLower(), PasswordBox.Text))
+                {
+
+                    MainForm mainMenu = new MainForm(_instance, LoginBox.Text);
+                    mainMenu.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Проверьте введеные вами данные!");
+                }
+            }
+        }
+
+        private bool correctData(string login, string password)
+        {
+            try
+            {
+                using (StreamReader sr = new StreamReader("Users.txt"))
+                {
+                    string line;
+                    string[] groupOfUsers;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        groupOfUsers = line.Split('$');
+                        if (login.Equals(groupOfUsers[0]) && password.Equals(groupOfUsers[1]))
+                        {
+                            return true;
+                        }
+                    }
+                    return false;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
         }
     }
 }

@@ -29,32 +29,67 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegForm));
-            PasBox = new TextBox();
-            LogBox = new TextBox();
+            PasswordBox = new TextBox();
+            LoginBox = new TextBox();
+            Go1Button = new PictureBox();
+            RepeatPasswordBox = new TextBox();
+            Warn = new Label();
+            ((System.ComponentModel.ISupportInitialize)Go1Button).BeginInit();
             SuspendLayout();
             // 
-            // PasBox
+            // PasswordBox
             // 
-            PasBox.BorderStyle = BorderStyle.None;
-            PasBox.Font = new Font("Segoe UI", 29F);
-            PasBox.Location = new Point(608, 526);
-            PasBox.MaxLength = 20;
-            PasBox.Name = "PasBox";
-            PasBox.PasswordChar = '*';
-            PasBox.Size = new Size(579, 52);
-            PasBox.TabIndex = 3;
-            PasBox.KeyPress += PasBox_KeyPress;
+            PasswordBox.BorderStyle = BorderStyle.None;
+            PasswordBox.Font = new Font("Segoe UI", 29F);
+            PasswordBox.Location = new Point(608, 467);
+            PasswordBox.MaxLength = 20;
+            PasswordBox.Name = "PasswordBox";
+            PasswordBox.PasswordChar = '*';
+            PasswordBox.Size = new Size(579, 52);
+            PasswordBox.TabIndex = 3;
+            PasswordBox.KeyPress += PasBox_KeyPress;
             // 
-            // LogBox
+            // LoginBox
             // 
-            LogBox.BorderStyle = BorderStyle.None;
-            LogBox.Font = new Font("Segoe UI", 29F);
-            LogBox.Location = new Point(608, 406);
-            LogBox.MaxLength = 20;
-            LogBox.Name = "LogBox";
-            LogBox.Size = new Size(579, 52);
-            LogBox.TabIndex = 2;
-            LogBox.KeyPress += LogBox_KeyPress;
+            LoginBox.BorderStyle = BorderStyle.None;
+            LoginBox.Font = new Font("Segoe UI", 29F);
+            LoginBox.Location = new Point(608, 347);
+            LoginBox.MaxLength = 20;
+            LoginBox.Name = "LoginBox";
+            LoginBox.Size = new Size(579, 52);
+            LoginBox.TabIndex = 2;
+            LoginBox.KeyPress += LogBox_KeyPress;
+            // 
+            // Go1Button
+            // 
+            Go1Button.Image = Properties.Resources.Go1Button;
+            Go1Button.Location = new Point(1139, 692);
+            Go1Button.Name = "Go1Button";
+            Go1Button.Size = new Size(230, 111);
+            Go1Button.TabIndex = 4;
+            Go1Button.TabStop = false;
+            Go1Button.Click += Go1Button_Click;
+            // 
+            // RepeatPasswordBox
+            // 
+            RepeatPasswordBox.BorderStyle = BorderStyle.None;
+            RepeatPasswordBox.Font = new Font("Segoe UI", 29F);
+            RepeatPasswordBox.Location = new Point(608, 597);
+            RepeatPasswordBox.MaxLength = 20;
+            RepeatPasswordBox.Name = "RepeatPasswordBox";
+            RepeatPasswordBox.PasswordChar = '*';
+            RepeatPasswordBox.Size = new Size(579, 52);
+            RepeatPasswordBox.TabIndex = 5;
+            // 
+            // Warn
+            // 
+            Warn.AutoSize = true;
+            Warn.Font = new Font("Segoe UI", 19F);
+            Warn.ForeColor = Color.IndianRed;
+            Warn.Location = new Point(608, 682);
+            Warn.Name = "Warn";
+            Warn.Size = new Size(0, 36);
+            Warn.TabIndex = 6;
             // 
             // RegForm
             // 
@@ -62,20 +97,27 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
-            Controls.Add(PasBox);
-            Controls.Add(LogBox);
+            Controls.Add(Warn);
+            Controls.Add(RepeatPasswordBox);
+            Controls.Add(Go1Button);
+            Controls.Add(PasswordBox);
+            Controls.Add(LoginBox);
             DoubleBuffered = true;
             Name = "RegForm";
             Text = "TypeMaster";
             WindowState = FormWindowState.Maximized;
             FormClosed += RegForm_FormClosed;
+            ((System.ComponentModel.ISupportInitialize)Go1Button).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox PasBox;
-        private TextBox LogBox;
+        private TextBox PasswordBox;
+        private TextBox LoginBox;
+        private PictureBox Go1Button;
+        private TextBox RepeatPasswordBox;
+        private Label Warn;
     }
 }

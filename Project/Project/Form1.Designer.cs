@@ -29,36 +29,36 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
-            LogBox = new TextBox();
-            PasBox = new TextBox();
+            LoginBox = new TextBox();
+            PasswordBox = new TextBox();
             RegButton = new PictureBox();
             Go1Button = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)RegButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Go1Button).BeginInit();
             SuspendLayout();
             // 
-            // LogBox
+            // LoginBox
             // 
-            LogBox.BorderStyle = BorderStyle.None;
-            LogBox.Font = new Font("Segoe UI", 29F);
-            LogBox.Location = new Point(606, 405);
-            LogBox.MaxLength = 20;
-            LogBox.Name = "LogBox";
-            LogBox.Size = new Size(579, 52);
-            LogBox.TabIndex = 0;
-            LogBox.KeyPress += LogBox_KeyPress;
+            LoginBox.BorderStyle = BorderStyle.None;
+            LoginBox.Font = new Font("Segoe UI", 29F);
+            LoginBox.Location = new Point(606, 405);
+            LoginBox.MaxLength = 20;
+            LoginBox.Name = "LoginBox";
+            LoginBox.Size = new Size(579, 52);
+            LoginBox.TabIndex = 0;
+            LoginBox.KeyPress += LogBox_KeyPress;
             // 
-            // PasBox
+            // PasswordBox
             // 
-            PasBox.BorderStyle = BorderStyle.None;
-            PasBox.Font = new Font("Segoe UI", 29F);
-            PasBox.Location = new Point(606, 525);
-            PasBox.MaxLength = 20;
-            PasBox.Name = "PasBox";
-            PasBox.PasswordChar = '*';
-            PasBox.Size = new Size(579, 52);
-            PasBox.TabIndex = 1;
-            PasBox.KeyPress += PasBox_KeyPress;
+            PasswordBox.BorderStyle = BorderStyle.None;
+            PasswordBox.Font = new Font("Segoe UI", 29F);
+            PasswordBox.Location = new Point(606, 525);
+            PasswordBox.MaxLength = 20;
+            PasswordBox.Name = "PasswordBox";
+            PasswordBox.PasswordChar = '*';
+            PasswordBox.Size = new Size(579, 52);
+            PasswordBox.TabIndex = 1;
+            PasswordBox.KeyPress += PasBox_KeyPress;
             // 
             // RegButton
             // 
@@ -88,8 +88,8 @@
             ClientSize = new Size(1904, 1041);
             Controls.Add(Go1Button);
             Controls.Add(RegButton);
-            Controls.Add(PasBox);
-            Controls.Add(LogBox);
+            Controls.Add(PasswordBox);
+            Controls.Add(LoginBox);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "LoginForm";
@@ -103,8 +103,8 @@
 
         #endregion
 
-        private TextBox LogBox;
-        private TextBox PasBox;
+        private TextBox LoginBox;
+        private TextBox PasswordBox;
         private PictureBox RegButton;
         private PictureBox Go1Button;
     }
