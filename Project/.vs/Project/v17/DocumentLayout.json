@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|c:\\users\\user\\desktop\\typemaster\\project\\project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|solutionrelative:project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|c:\\users\\user\\desktop\\typemaster\\project\\project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|solutionrelative:project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|c:\\users\\user\\desktop\\typemaster\\project\\project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|solutionrelative:project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|c:\\users\\user\\desktop\\typemaster\\project\\project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|C:\\Users\\user\\Desktop\\TypeMaster\\Project\\project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|solutionrelative:project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|c:\\users\\user\\desktop\\typemaster\\project\\project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|solutionrelative:project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|C:\\Users\\user\\Desktop\\TypeMaster\\Project\\project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE42167C-401A-47F0-842B-C8B70D1A4A1E}|Project\\Project.csproj|solutionrelative:project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,49 +26,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Form1.cs",
               "RelativeDocumentMoniker": "Project\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Form1.cs",
               "RelativeToolTip": "Project\\Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T13:00:18.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Form1.cs",
               "RelativeDocumentMoniker": "Project\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "RelativeToolTip": "Project\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T13:00:14.31Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2025-03-01T13:00:14.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Form2.cs",
               "RelativeDocumentMoniker": "Project\\Form2.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Form2.cs",
               "RelativeToolTip": "Project\\Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T12:40:27.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Form2.cs",
               "RelativeDocumentMoniker": "Project\\Form2.cs",
