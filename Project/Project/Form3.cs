@@ -33,7 +33,6 @@ namespace Project
         }
 
 
-
         private void RadioModeButton_Click(object sender, EventArgs e)
         {
             try
@@ -104,6 +103,16 @@ namespace Project
             FallingWords fw = new FallingWords(_instatnceLog, this, radioButInfo[1]);
             fw.Show();
             this.Hide();
+        }
+
+        private void StatButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AboutFormButton_Click(object sender, EventArgs e)
+        {
+            AboutForm af = new AboutForm(_instatnceLog, this);
         }
     }
 }

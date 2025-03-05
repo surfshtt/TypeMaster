@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj": {}
+    "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj": {
+    "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj",
+        "projectUniqueName": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\TypeMaster\\Project\\Project\\obj\\",
+        "projectPath": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\Project.csproj",
+        "packagesPath": "C:\\Users\\1227154\\.nuget\\packages\\",
+        "outputPath": "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\Desktop\\TypeMaster\\Project\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "\\\\mcb.local\\RoamingProfiles$\\StudentsData\\1227154\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

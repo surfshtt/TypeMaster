@@ -37,6 +37,8 @@
             RadioModeButton22 = new PictureBox();
             RadioModeButton11 = new PictureBox();
             pictureBox1 = new PictureBox();
+            StatButton = new PictureBox();
+            AboutFormButton = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)GoPlay1Button).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton2).BeginInit();
@@ -45,6 +47,8 @@
             ((System.ComponentModel.ISupportInitialize)RadioModeButton22).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)StatButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AboutFormButton).BeginInit();
             SuspendLayout();
             // 
             // GoPlay1Button
@@ -127,12 +131,35 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
+            // StatButton
+            // 
+            StatButton.Image = (Image)resources.GetObject("StatButton.Image");
+            StatButton.Location = new Point(218, 729);
+            StatButton.Name = "StatButton";
+            StatButton.Size = new Size(195, 60);
+            StatButton.TabIndex = 8;
+            StatButton.TabStop = false;
+            StatButton.Click += StatButton_Click;
+            // 
+            // AboutFormButton
+            // 
+            AboutFormButton.Image = Properties.Resources.Go1Button;
+            AboutFormButton.Location = new Point(1489, 729);
+            AboutFormButton.Name = "AboutFormButton";
+            AboutFormButton.Size = new Size(272, 135);
+            AboutFormButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            AboutFormButton.TabIndex = 9;
+            AboutFormButton.TabStop = false;
+            AboutFormButton.Click += AboutFormButton_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
+            Controls.Add(AboutFormButton);
+            Controls.Add(StatButton);
             Controls.Add(pictureBox1);
             Controls.Add(RadioModeButton33);
             Controls.Add(RadioModeButton22);
@@ -154,6 +181,8 @@
             ((System.ComponentModel.ISupportInitialize)RadioModeButton22).EndInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)StatButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AboutFormButton).EndInit();
             ResumeLayout(false);
         }
 
@@ -167,5 +196,7 @@
         private PictureBox RadioModeButton22;
         private PictureBox RadioModeButton11;
         private PictureBox pictureBox1;
+        private PictureBox StatButton;
+        private PictureBox AboutFormButton;
     }
 }

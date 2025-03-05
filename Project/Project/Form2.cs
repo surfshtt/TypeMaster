@@ -21,6 +21,8 @@ namespace Project
             LoginBox.ForeColor = ColorTranslator.FromHtml("#E4E4E4");
             PasswordBox.BackColor = ColorTranslator.FromHtml("#312D2D");
             PasswordBox.ForeColor = ColorTranslator.FromHtml("#E4E4E4");
+            RepeatPasswordBox.BackColor = ColorTranslator.FromHtml("#312D2D");
+            RepeatPasswordBox.ForeColor = ColorTranslator.FromHtml("#E4E4E4");
 
             _logIns = _logInstance;
         }
