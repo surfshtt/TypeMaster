@@ -14,6 +14,7 @@ namespace Project
     {
         LoginForm _instatnceLog;
         private static int[] radioButInfo = new int[2];
+        string us;
 
         public MainForm(LoginForm _inst, string us)
         {
@@ -30,6 +31,8 @@ namespace Project
             RadioModeButton22.Image = Image.FromFile($"pics/RadioButtonNCMode.png");
             RadioModeButton33.Image = Image.FromFile($"pics/RadioButtonNCMode.png");
             radioButInfo[1] = 1;
+
+            this.us = us;
         }
 
 
@@ -107,12 +110,16 @@ namespace Project
 
         private void StatButton_Click(object sender, EventArgs e)
         {
-
+            StatForm sf = new StatForm(_instatnceLog, this, us);
+            sf.Show();
+            this.Hide();
         }
 
         private void AboutFormButton_Click(object sender, EventArgs e)
         {
             AboutForm af = new AboutForm(_instatnceLog, this);
+            af.Show();
+            this.Hide();
         }
     }
 }
