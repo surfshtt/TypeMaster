@@ -46,6 +46,7 @@
             // helloLabel
             // 
             helloLabel.AutoSize = true;
+            helloLabel.BackColor = Color.Transparent;
             helloLabel.Font = new Font("Segoe UI Semibold", 54.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
             helloLabel.Location = new Point(509, 159);
             helloLabel.Name = "helloLabel";
@@ -56,39 +57,43 @@
             // slovo1
             // 
             slovo1.AutoSize = true;
-            slovo1.Font = new Font("Segoe UI Semibold", 44.75F, FontStyle.Bold);
+            slovo1.BackColor = Color.Transparent;
+            slovo1.Font = new Font("Segoe UI Semibold", 30F, FontStyle.Bold);
             slovo1.ForeColor = Color.White;
-            slovo1.Location = new Point(528, 428);
+            slovo1.Location = new Point(509, 450);
             slovo1.Name = "slovo1";
-            slovo1.Size = new Size(190, 81);
+            slovo1.Size = new Size(125, 54);
             slovo1.TabIndex = 1;
             slovo1.Text = "label1";
             // 
             // slovo2
             // 
             slovo2.AutoSize = true;
-            slovo2.Font = new Font("Segoe UI Semibold", 44.75F, FontStyle.Bold);
+            slovo2.BackColor = Color.Transparent;
+            slovo2.Font = new Font("Segoe UI Semibold", 30F, FontStyle.Bold);
             slovo2.ForeColor = Color.White;
-            slovo2.Location = new Point(528, 545);
+            slovo2.Location = new Point(509, 567);
             slovo2.Name = "slovo2";
-            slovo2.Size = new Size(190, 81);
+            slovo2.Size = new Size(125, 54);
             slovo2.TabIndex = 2;
             slovo2.Text = "label1";
             // 
             // slovo3
             // 
             slovo3.AutoSize = true;
-            slovo3.Font = new Font("Segoe UI Semibold", 44.75F, FontStyle.Bold);
+            slovo3.BackColor = Color.Transparent;
+            slovo3.Font = new Font("Segoe UI Semibold", 30F, FontStyle.Bold);
             slovo3.ForeColor = Color.White;
-            slovo3.Location = new Point(528, 662);
+            slovo3.Location = new Point(509, 684);
             slovo3.Name = "slovo3";
-            slovo3.Size = new Size(190, 81);
+            slovo3.Size = new Size(125, 54);
             slovo3.TabIndex = 3;
             slovo3.Text = "label1";
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI Semibold", 44.75F, FontStyle.Bold);
             label1.ForeColor = Color.White;
             label1.Location = new Point(798, 662);
@@ -100,6 +105,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI Semibold", 44.75F, FontStyle.Bold);
             label2.ForeColor = Color.White;
             label2.Location = new Point(798, 545);
@@ -111,6 +117,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI Semibold", 44.75F, FontStyle.Bold);
             label3.ForeColor = Color.White;
             label3.Location = new Point(798, 428);
@@ -122,6 +129,7 @@
             // rec3
             // 
             rec3.AutoSize = true;
+            rec3.BackColor = Color.Transparent;
             rec3.Font = new Font("Segoe UI Semibold", 44.75F, FontStyle.Bold);
             rec3.ForeColor = Color.White;
             rec3.Location = new Point(1171, 662);
@@ -133,6 +141,7 @@
             // rec2
             // 
             rec2.AutoSize = true;
+            rec2.BackColor = Color.Transparent;
             rec2.Font = new Font("Segoe UI Semibold", 44.75F, FontStyle.Bold);
             rec2.ForeColor = Color.White;
             rec2.Location = new Point(1171, 545);
@@ -144,6 +153,7 @@
             // rec1
             // 
             rec1.AutoSize = true;
+            rec1.BackColor = Color.Transparent;
             rec1.Font = new Font("Segoe UI Semibold", 44.75F, FontStyle.Bold);
             rec1.ForeColor = Color.White;
             rec1.Location = new Point(1171, 428);

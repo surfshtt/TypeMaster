@@ -29,10 +29,6 @@ namespace Project
             speed.Text = speedOfType.ToString();
             acc.Text = (100 - accuracy).ToString() + "%";
             times.Text = time.ToString() + " сек";
-
-            speed.BackColor = ColorTranslator.FromHtml("#892199");
-            acc.BackColor = ColorTranslator.FromHtml("#29A9B7");
-            times.BackColor = ColorTranslator.FromHtml("#28CCA4");
         }
 
         private void BackButton_Click(object sender, EventArgs e)

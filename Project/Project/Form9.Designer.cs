@@ -46,9 +46,12 @@
             RichTextBox1.Size = new Size(1596, 498);
             RichTextBox1.TabIndex = 0;
             RichTextBox1.Text = "";
+            RichTextBox1.KeyDown += RichTextBox1_KeyDown;
+            RichTextBox1.KeyPress += RichTextBox1_KeyPress;
             // 
             // timer1
             // 
+            timer1.Interval = 1000;
             timer1.Tick += timer1_Tick;
             // 
             // pictureBox1

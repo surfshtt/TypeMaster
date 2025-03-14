@@ -32,7 +32,9 @@
             acc = new Label();
             times = new Label();
             BackButton = new PictureBox();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)BackButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // speed
@@ -81,12 +83,23 @@
             BackButton.TabStop = false;
             BackButton.Click += BackButton_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Rectangle_11;
+            pictureBox1.Location = new Point(488, 635);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(605, 86);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
+            // 
             // resultMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.CongratForm2;
             ClientSize = new Size(1904, 1041);
+            Controls.Add(pictureBox1);
             Controls.Add(BackButton);
             Controls.Add(times);
             Controls.Add(acc);
@@ -97,6 +110,7 @@
             WindowState = FormWindowState.Maximized;
             FormClosed += resultMenu_FormClosed;
             ((System.ComponentModel.ISupportInitialize)BackButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -107,5 +121,6 @@
         private Label acc;
         private Label times;
         private PictureBox BackButton;
+        private PictureBox pictureBox1;
     }
 }

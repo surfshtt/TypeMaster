@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.Design.Serialization;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -27,17 +28,20 @@ namespace Project
 
         public SpeedTestForm(LoginForm _instLog, MainForm _instMain, string us, int ct)
         {
+
+            InitializeComponent();
+
             loginForm = _instLog;
             mainForm = _instMain;
             userName = us;
             clickedTime = ct;
 
             getText();
-            //paintText();
+            paintText();
 
-            RichTextBox1.BackColor = ColorTranslator.FromHtml("E4E4E4");
+            RichTextBox1.BackColor = ColorTranslator.FromHtml("#E4E4E4");
 
-            InitializeComponent();
+            timer1.Enabled = true;
         }
 
         //Функция проверяющая на пустой текст и отображения текста в основном меню
@@ -58,16 +62,16 @@ namespace Project
         {
             string text;
 
-            if (File.Exists("Texts.txt"))
+            try
             {
                 var lines = File.ReadAllLines("Texts.txt");
                 var random = new Random();
-                text = lines[random.Next(lines.Length)];
+                text = lines[random.Next(lines.Length) - 1];
                 return text;
             }
-            else
+            catch (Exception e)
             {
-                return null;
+                return "abc";
             }
         }
 
@@ -92,7 +96,7 @@ namespace Project
                     newRec(clickedTime, countSymbInSec(time, i));//запись нового рекорда
                 }
 
-                resultMenu resMenu = new resultMenu(logMenu, this, countSymbInSec(time, i), (int)(100 - (incorrectType * 100 / RichTextBox1.Text.Length)), clickedTime);
+                resultMenu resMenu = new resultMenu(loginForm, mainForm, countSymbInSec(time, i), (int)(100 - (incorrectType * 100 / RichTextBox1.Text.Length)), clickedTime);
 
                 TimeLabel.Text = "Время";
                 i = 0;
@@ -204,7 +208,90 @@ namespace Project
         private void BackButton_Click(object sender, EventArgs e)
         {
             this.Hide();
+            timer1.Enabled = false;
+            TimeLabel.Text = "0";
+            i = 0;
+            clickedTime = 0;
+            getText();
+            paintText();
             mainForm.Show();
+        }
+
+        private void RichTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (clickedTime == 0)
+                {
+                    MessageBox.Show("Сначало выберите время!");
+                    e.Handled = true;
+                    RichTextBox1.DeselectAll();
+                    return;
+                }
+
+                RichTextBox1.Select(i, 1);
+                if (e.KeyChar == RichTextBox1.Text[i])
+                {
+                    RichTextBox1.SelectionColor = Color.Green;
+                    i++;
+                    e.Handled = true;
+                    RichTextBox1.DeselectAll();
+                    int currentPosition = RichTextBox1.SelectionStart;
+                    RichTextBox1.Select(currentPosition + 1, 0);
+                }
+                else if (char.IsLetter(e.KeyChar) || e.KeyChar == ' ')
+                {
+                    incorrectType++;
+                    RichTextBox1.SelectionColor = Color.Red;
+                    i++;
+                    e.Handled = true;
+                    RichTextBox1.DeselectAll();
+                    int currentPosition = RichTextBox1.SelectionStart;
+                    RichTextBox1.Select(currentPosition + 1, 0);
+                }
+                else
+                {
+                    e.Handled = true;
+                    RichTextBox1.DeselectAll();
+                }
+            }
+            catch
+            {
+            }
+        }
+
+        private void RichTextBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            try
+            {
+                if (e.KeyCode == Keys.Back && i != 0)
+                {
+                    i--;
+                    RichTextBox1.Select(i, 1);
+                    RichTextBox1.SelectionColor = ColorTranslator.FromHtml("#717171");
+                    e.Handled = true; // Помечаем событие как обработанное
+                    e.SuppressKeyPress = true; //Скажем НЕТ удалению!
+                    RichTextBox1.DeselectAll();
+                    return;
+                }
+                else if (e.KeyCode == Keys.Back && i == 0)
+                {
+                    e.Handled = true; // Помечаем событие как обработанное
+                    e.SuppressKeyPress = true; //Скажем НЕТ удалению!
+                    RichTextBox1.DeselectAll();
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            catch (Exception ex)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                return;
+            }
         }
     }
 }

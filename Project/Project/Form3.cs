@@ -124,17 +124,23 @@ namespace Project
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            SpeedTestForm spd = new SpeedTestForm(_instatnceLog, this, us, 15);
+            spd.Show();
+            this.Hide();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-
+            SpeedTestForm spd = new SpeedTestForm(_instatnceLog, this, us, 30);
+            spd.Show();
+            this.Hide();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-
+            SpeedTestForm spd = new SpeedTestForm(_instatnceLog, this, us, 60);
+            spd.Show();
+            this.Hide();
         }
     }
 }
