@@ -39,6 +39,9 @@
             pictureBox1 = new PictureBox();
             StatButton = new PictureBox();
             AboutFormButton = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)GoPlay1Button).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RadioModeButton2).BeginInit();
@@ -49,6 +52,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)StatButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)AboutFormButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // GoPlay1Button
@@ -152,12 +158,45 @@
             AboutFormButton.TabStop = false;
             AboutFormButton.Click += AboutFormButton_Click;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(166, 190);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(76, 76);
+            pictureBox2.TabIndex = 10;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(166, 285);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(76, 76);
+            pictureBox3.TabIndex = 11;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(166, 376);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(76, 76);
+            pictureBox4.TabIndex = 12;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
             Controls.Add(AboutFormButton);
             Controls.Add(StatButton);
             Controls.Add(pictureBox1);
@@ -183,6 +222,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)StatButton).EndInit();
             ((System.ComponentModel.ISupportInitialize)AboutFormButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
         }
 
@@ -198,5 +240,8 @@
         private PictureBox pictureBox1;
         private PictureBox StatButton;
         private PictureBox AboutFormButton;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
     }
 }

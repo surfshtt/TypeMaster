@@ -83,6 +83,16 @@ namespace Project.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CongratForm2 {
+            get {
+                object obj = ResourceManager.GetObject("CongratForm2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FallingLettersForm {
             get {
                 object obj = ResourceManager.GetObject("FallingLettersForm", resourceCulture);
@@ -96,6 +106,16 @@ namespace Project.Properties {
         internal static System.Drawing.Bitmap Go1Button {
             get {
                 object obj = ResourceManager.GetObject("Go1Button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_6 {
+            get {
+                object obj = ResourceManager.GetObject("Group 6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +166,16 @@ namespace Project.Properties {
         internal static System.Drawing.Bitmap RegForm {
             get {
                 object obj = ResourceManager.GetObject("RegForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SpeedTestForm {
+            get {
+                object obj = ResourceManager.GetObject("SpeedTestForm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
