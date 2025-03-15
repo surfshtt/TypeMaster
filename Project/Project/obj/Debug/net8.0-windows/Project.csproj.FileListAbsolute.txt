@@ -48,3 +48,7 @@ C:\Users\user\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Projec
 C:\Users\user\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.AboutForm.resources
 C:\Users\user\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.SpeedTestForm.resources
 C:\Users\user\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.resultMenu.resources
+\\mcb.local\RoamingProfiles$\StudentsData\1227154\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.resultMenu.resources
+\\mcb.local\RoamingProfiles$\StudentsData\1227154\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.StatForm.resources
+\\mcb.local\RoamingProfiles$\StudentsData\1227154\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.AboutForm.resources
+\\mcb.local\RoamingProfiles$\StudentsData\1227154\Desktop\TypeMaster\Project\Project\obj\Debug\net8.0-windows\Project.SpeedTestForm.resources

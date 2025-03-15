@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project
-build_property.ProjectDir = C:\Users\user\Desktop\TypeMaster\Project\Project\
+build_property.ProjectDir = \\mcb.local\RoamingProfiles$\StudentsData\1227154\Desktop\TypeMaster\Project\Project\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
