@@ -20,7 +20,8 @@ namespace Project
         {
             InitializeComponent();
 
-            _instatnceLog = _inst;
+            this._instatnceLog = _inst;
+            this.us = us;
 
             RadioModeButton1.Image = Image.FromFile($"pics/RadioButtonCMode.png");
             RadioModeButton2.Image = Image.FromFile($"pics/RadioButtonNCMode.png");
@@ -31,8 +32,6 @@ namespace Project
             RadioModeButton22.Image = Image.FromFile($"pics/RadioButtonNCMode.png");
             RadioModeButton33.Image = Image.FromFile($"pics/RadioButtonNCMode.png");
             radioButInfo[1] = 1;
-
-            this.us = us;
         }
 
 
